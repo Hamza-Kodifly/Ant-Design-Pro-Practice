@@ -12,6 +12,12 @@
  */
 export default [
   {
+    path: '/reports',
+    name: 'Reports',
+    icon: 'fileText',
+    component: './reports',
+  },
+  {
     path: '/user',
     layout: false,
     routes: [
